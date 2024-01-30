@@ -27,8 +27,6 @@ public class ArthOperation {
         result = num1 % num2;
         System.out.println("Remainder: num1 % num2 = "+result);
 
-
-        
         
     }
     
