@@ -12,5 +12,11 @@ public class seriesPrac {
             sum = sum + i;
         }
         System.out.println("The summation of n limit: "+sum);
+
+        for(int i=1; i<=n; i++){
+            sum = sum + i*i;               ///1^1+2^2...
+            System.out.print(" "+i);
+        }
+        System.out.println("Power sum: "+sum);
     }
 }
