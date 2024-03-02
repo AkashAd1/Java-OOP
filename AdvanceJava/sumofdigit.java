@@ -2,7 +2,7 @@ package AdvanceJava;
 
 import java.util.Scanner;
 
-public class reverse {
+public class sumofdigit {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int temp, num;
