@@ -22,5 +22,21 @@ public class ArSumAv {
         System.out.println("The sum is : "+sum);
 
         System.out.println("The avarage is : "+sum/limit);
+
+        double max = arr[0];
+        for(int i = 1; i < limit; i++){
+            if(max < arr[i]){
+                max = arr[i];
+            }
+        }
+        System.out.println("maximum number is: "+max);
+
+        double min = arr[0];
+        for(int i = 1; i < limit; i++){
+            if(min > arr[i]){
+                min = arr[i];
+            }
+        }
+        System.out.println("minimum number is: "+min);
     }
 }
